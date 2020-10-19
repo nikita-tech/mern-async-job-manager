@@ -13,3 +13,7 @@
     cd worker
     npm install
     npm start
+
+# how to run redis and  mongo if you have docker
+    docker run -p 27017:27017 -idt mongo
+    docker run -p 6379:6379 -idt redis
