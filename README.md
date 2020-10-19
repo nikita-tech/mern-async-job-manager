@@ -1,14 +1,15 @@
-# MERN_Docker
-Containerization of MERN Stack using Docker
+# How to run frontend
+cd client
+npm install
+npm start
 
 
-# Docker-compose
-Get docker-compose from here:-
-https://docs.docker.com/compose/install/
+# How to run backend
+cd backend
+npm install
+npm start
 
-
-Run these commands in root dir:-
-1. docker-compose build
-2. docker-compose up
-
-
+# how to run standalone worker
+cd worker
+npm install
+npm start
