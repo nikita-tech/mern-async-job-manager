@@ -1,3 +1,7 @@
+A MERN stack async job processing system built with Node.js, MongoDB, Redis, and BullMQ. Demonstrates worker queue patterns for background job processing — job creation via REST API, async processing via dedicated worker service, and job state management in MongoDB.
+Architecture: Express backend creates jobs → Redis queue via BullMQ → standalone worker service processes jobs → MongoDB persists job state.
+Stack: Node.js, Express, React, MongoDB, Redis, BullMQ, Docker
+
 # How to run frontend
     cd client
     npm install
